@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body  {
+    overflow: hidden;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/*
+.bgcolor {
+    position: absolute;
+    width: 832px;
+    height: 787px;
+    background:  #0B7572;
+    right: -300px;
+  top: -10px;
+}
+*/
+.hero { 
+    display: flex;
+    align-items: center;
+    margin: 109px 100px 0 100px;
+}
+.hero__content {
+    
+}
+.hero__title {
+    font-family: 'Exo 2', sans-serif;                                                                               
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 125%;
+color: #363738;
+margin-bottom: 40px;
+}
+.hero__description {
+    font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #6B6B6C;
+margin-bottom: 40px;
+}
+.hero__link {
+    font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #363738;
+
+}
+.hero__image {
+    position: relative;
+}
+@media only screen and (max-width:1345px){
+    .hero__title {
+        font-weight: 400;
+        font-size: 32px;
+        margin-bottom: 20px;   
+    }
+    .hero__description {
+        font-weight: 350;
+font-size: 10px;
+margin-bottom: 20px;
+    }
+    .hero__image {
+        width: 500px;
+        height: 405px;
+    }
+}
+@media only screen and (max-width:768px){
+    .hero {
+        display: block;
+        margin: 80px 39px 0 39px;
+
+    }
+    .hero__title {
+        font-weight: 600;
+font-size: 44px;
+    }
+    .hero__description {
+        font-weight: 400;
+font-size: 16px;
+    }
+    .hero__image {
+        width: 650px;
+        height: 314px;
+        margin-top: 66px;
+        border-radius: 20px;
+    }
+    
+}
+@media only screen and (max-width:425px){
+    .hero {
+        margin: 75px 16px 0 15px;
+    }
+    .hero__title {
+        font-weight: 600;
+font-size: 28px;
+    }
+    .hero__description {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .hero__image {
+        width: 345px;
+        height: 253px;
+    }
+}
